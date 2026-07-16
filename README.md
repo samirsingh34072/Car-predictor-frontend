@@ -4,21 +4,14 @@ React + Tailwind CSS frontend for the Flask car price prediction API.
 
 ## Backend
 
-Start the backend from:
+The frontend connects to the deployed API by default:
 
 ```text
-C:\Users\91620\OneDrive\Desktop\Car-Prediction-System\Car-Price-Prediction-master
+https://car-predictor-4djb.onrender.com
 ```
 
-```bash
-python app.py
-```
-
-The frontend expects:
-
-```text
-http://127.0.0.1:5000
-```
+To use a local or different backend, create a `.env` file from `.env.example`
+and set `VITE_API_BASE_URL` to that backend's URL.
 
 ## Frontend
 
